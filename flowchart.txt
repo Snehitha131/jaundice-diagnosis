@@ -1,0 +1,74 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Image Based Data
+	- Feature Data 
+IMage Data
+===========
+
+3. Image  processing 
+	
+	- Using opencv, Pillow 
+		- Resizing the image
+		- creating the square background image
+		- Transforming the image using tensor
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+
+4. Data Extraction to train and test set
+5. Model building
+	
+    		- ANN
+    		- Decision Tree
+    		- Voting Classifier
+		- CNN
+		- Xception
+
+5. Training the model
+6. Building the model 
+
+Feature Data
+=============
+
+7. Data processing
+	- pandas dataframe
+	- Dropping unwanted column
+	- Data Normalization
+8. Visualization using seaborn & matplotlib
+9. Label Encoding using LabelEncoder
+10. Feature Extraction and Selection 
+7. Splitting the data to train and test 
+8. Building the model
+
+    
+	- ANN
+	- DNN
+	- Decision Tree
+	- Voting
+    - CNN
+
+9. Training and Building the model
+
+Flask Framework
+----------------
+
+ 
+10. Flask Framework with Sqlite for signup and signin
+11. Importing the packages
+12. User Upload an image for analysis and along Feature Data
+10. The given input is preprocessed based on inputs provideed
+11. The trained model is used for predicting the result for the inputs respectively
+12. Final Outcome is display 
+
+
+Extension
+----------
+
+In the base paper, the author mentioned to use different models for analysis the ANN and CNN for classification Jaundice using Image and Feature Data,
+However, we can further enhance the performance by exploring other techniques such as DecisionTree, Voting Classifier and Xception Classification, for Image Data
+and Decision Tree and Voting Classifier for Feature Data,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
+
